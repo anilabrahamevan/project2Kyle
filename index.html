@@ -1,0 +1,776 @@
+<!-- Have Added An extra screen when clicking submit in reservation tab,
+which takes the name and gives a message to the end. 
+ALso for menu each button has a popup message -->
+
+<!DOCTYPE html>
+
+<!-- Setup HTML -->
+<html dir='ltr' lang='en-ca'>
+<!-- Put metadata in head -->
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='author' content='Abraham Evan Anil'>
+    <meta name='description' content='Family of Eateries is a collective food supplier for your weekend escape.'>
+    <meta name='viewport' content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel='stylesheet' href='css/style.css'>
+    <title>Family of Eateries</title>
+</head>
+
+<body>
+    <div class="phone">
+        <div class="phoneTop">
+            <div class="phoneDot1"></div>
+            <div class="phoneDot2"></div>
+        </div>
+        <div class="phoneLeft"></div>
+        <div class="phoneRight"></div>
+        <div class="phoneBottom">
+            <div class="phoneDot3"></div>
+        </div>
+    </div>
+
+    <!--! ADDED MENU CONTENT -->
+    <main id="menu">
+        <div class="menustyl1"></div>
+        <header><img src="./img/foe_logo1.svg" alt="Family of Eateries"></header>
+        <div class="menuDetail">
+            <div id="backToLanding" class="menuBtn icn1"><img src="img/landing_icon.png" alt="Home" /><span
+                    class="menu1">Select a
+                    Restaurant</span></div>
+            <div id="menuadd" class="menuBtn icn"><img class="contactIcon" src="img/contact_icon.png"
+                    alt="Contact" /><span class="menu1 address1">Address</span></div>
+            <div id="address-trigger">
+                <div class="add1">F12 Main Streett,Anytown, USA </div><br>
+                <span>Opposite to Mary Jane
+                    Church</span><br>
+                <button class="trigger-button">Close</button>
+            </div>
+            <div id="contact" class="menuBtn icn"><img class="contactIcon" src="img/contact.png" alt="Contact" /><span
+                    class="menu1">Contact Family of Eateries</span></div>
+            <div id="contact-trigger">
+                <div class="add1">Contact: (555) 123-4567<br>
+                    Email: info@cevicheanytown.com<br>
+                    Website: www.cevicheanytown.com</div><br>
+
+                <button class="trigger-button">Close</button>
+            </div>
+            <div id="about" class="menuBtn icn"><img src="img/about_icon.svg" alt="About" /><span class="menu1">About
+                    Family
+                    of
+                    Eateries</span></div>
+        </div>
+        <div id="about-trigger">
+            <div class="add1">Family of Eateries is a restaurant that offers a warm and inviting dining experience for
+                individuals and families alike. <br>
+
+                <button class="trigger-button">Close</button>
+            </div>
+
+    </main>
+
+
+    <!--* SPLASH SCREEN FOR APP COMPANT  -->
+    <main id="splash">
+
+        <img src="img/foe_logo.svg" alt="Family of Eateries" />
+
+    </main>
+
+    <main id="landing">
+
+        <!-- LANDING -->
+        <header>
+            <img src="img/foe_logo1.svg" alt="Family of Eateries" />
+
+        </header>
+
+        <div id="logo1" class="landingLogos">
+
+            <img src="img/ceviche_logo.svg" alt="Cerviche" />
+        </div>
+
+        <div id="logo2" class="landingLogos">
+
+            <img src="img/5wine_logo.svg" alt="5 Vine" />
+        </div>
+
+        <div id="logo3" class="landingLogos">
+
+            <img class="crispy" src="img/crispy_logo.svg" alt="Crispy" />
+        </div>
+        <footer></footer>
+    </main>
+
+    <!-- ! ENSURE YOU ADD CLASS REST TO ALL RESTAURANTS -->
+    <main id="rest1" class="rest">
+        <!-- header -->
+        <header>
+
+            <img class="hamburger" src="img/close2hamburger.gif" alt="Menu" />
+        </header>
+        <!-- home -->
+        <section class="home">
+            <div class="sectionContainer">
+                <div class="logoCon"><img class="logo reveal" src="img/ceviche_logo1.svg" alt="Ceviche" />
+                </div>
+
+                <div class="photoAddress reveal">
+                    <img class="homeImg" src="img/rest1.1.jpg" alt="fish" />
+                    <img class="homeImg" src="img/rest1.2.jpg" alt="fish" />
+
+
+                </div>
+                <div class="hours reveal">
+                    <h2>History</h2>
+
+                </div>
+                <div class="reviews reveal">
+
+                    <p>Ceviche is a restaurant that celebrates the vibrant and flavorful cuisine of Latin America.
+                        Our
+                        menu features an array of dishes inspired by the traditional recipes and ingredients of
+                        countries such as Peru, Mexico, and Ecuador.</p>
+                </div>
+                <div class="hours reveal">
+                    <h3>We are open on:</h3>
+                </div>
+                <div class="days reveal">
+                    <p>Monday - Thuttrsday: 11am - 9pm<br>
+                        Friday - Saturdayt: 11am - 10pm<br>
+                        Sunday: Closed</p>
+                </div>
+                <div class="address reveal">
+                    <p>1234 Main Streett,Anytown, USA <br>
+                        Contact: (555) 123-4567<br>
+                        Email: info@cevicheanytown.com<br>
+                        Website: www.cevicheanytown.com</p>
+                </div>
+        </section>
+
+
+        <!-- Specials -->
+        <section class="specials">
+            <img src="./img/ceviche1.jpg" alt="ceviche specials" class="c1 reveal">
+            <div class="sectionBanner reveal">NIGHTLY SPECIALS</div>
+            <div class="sectionContainer">
+                <div class="nightContainer1 reveal">
+                    <img class="homeImg" src="img/c8.webp" alt="fish" />
+                    <img class="homeImg" src="img/rest1.2.jpg" alt="fish" />
+
+                </div>
+                <div class="nightContainer1 reveal">
+
+                    <div>
+                        <h2>Weekends</h2>
+                        <div class="menuItems revs">
+                            <p class="sub">Gobhi Manchurian</p>
+                            <p class="price">CA$12.99</p>
+                            <p class="day">Saturday</p>
+                            <img class="menuImg" src="./img/c1.jpg" alt="ceviceh food items">
+                        </div>
+                        <div class="menuItems revs">
+                            <p class="sub">Fish Makhani</p>
+                            <p class="price">CA$10.99</p>
+                            <p class="day">Sunday</p>
+                            <img class="menuImg" src="./img/c2.jpg" alt="ceviceh food items">
+                        </div>
+                        <h2>Weekdays</h2>
+                        <div class="menuItems revs">
+                            <p class="sub">Fried Fish Albaca</p>
+                            <p class="price">CA$12.69</p>
+                            <p class="day">Monday</p>
+                            <img class="menuImg" src="./img/c3.jpg" alt="ceviceh food items">
+                        </div>
+                        <div class="menuItems revs">
+                            <p class="sub">Rice and Fish</p>
+                            <p class="price">CA$10.99</p>
+                            <p class="day">Tuesday</p>
+                            <img class="menuImg" src="./img/c4.jpg" alt="ceviceh food items">
+                        </div>
+                        <div class="menuItems revs">
+                            <p class="sub">Fish and Berries</p>
+                            <p class="price">CA$12.99</p>
+                            <p class="day">Wednesday</p>
+                            <img class="menuImg" src="./img/c5.webp" alt="ceviceh food items">
+                        </div>
+                        <div class="menuItems revs">
+                            <p class="sub">Fish and Chips</p>
+                            <p class="price">CA$10.99</p>
+                            <p class="day">Thursday</p>
+                            <img class="menuImg" src="./img/c6.webp" alt="ceviceh food items">
+                        </div>
+                        <div class="menuItems revs">
+                            <p class="sub">Fish Manjoori</p>
+                            <p class="price">CA$10.99</p>
+                            <p class="day">Friday</p>
+                            <img class="menuImg" src="./img/c7.jpg" alt="ceviceh food items">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- reservations -->
+        <section class="reservations">
+            <div class="sectionBanner">RESERVATIONS</div>
+            <div class="sectionContainer">
+                <!-- FORM HERE -->
+
+                <form>
+                    <div id="forms">
+
+                        <p class="formContent">
+                        <p class="reveal">
+                            <label class="labelsN" for="name">Name</label> <br>
+                            <input class="inputBox" type="text" id="name" required>
+                        </p>
+                        <p class="reveal">
+                            <label class="labelsN" for="email">Email</label> <br>
+                            <input class="inputBox" type="email" id="email" required>
+                        </p>
+                        <p class="reveal">
+                            <label class="labelsD" for="dob">Date</label> <br>
+                            <input class="inputBox" type="date" id="dob" required min="1920-01-01" max="2022-12-31">
+                        </p>
+
+
+                        <p class="reveal">
+                            <label class="labelSl" for="time">Select Time<span>*</span></label><br>
+                            <select name="time" id="selection" required>
+                                <option value="">Select a time...</option>
+                                <option value="6:00 pm">6:00 pm</option>
+                                <option value="6:30 pm">6:30 pm</option>
+                                <option value="7:00 pm">7:00 pm</option>
+                                <option value="7:30 pm">7:30 pm</option>
+                                <option value="8:00 pm">8:00 pm</option>
+                                <option value="8:30 pm">8:30 pm</option>
+                                <option value="9:00 pm">9:00 pm</option>
+                                <option value="9:30 pm">9:30 pm</option>
+                            </select>
+                        </p>
+
+                        <p class="reveal">
+                            <label class="labelSlp" for="guests">Number of Guests<span>*</span></label><br>
+                            <select name="time" id="time" required>
+                                <option value="">Select the number of guests...</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10+">10+</option>
+                            </select>
+                        </p>
+
+                        <p class="reveal">
+                            <label class="labelSe" for="requests">Special Requests</label><br>
+                            <textarea name="requests" id="req" rows="4"></textarea>
+                        </p>
+
+                        <p class="reveal">
+                            <input type="submit" class="reserve res1" name="Submit" />
+                        </p>
+                    </div>
+            </div>
+            </form>
+
+        </section>
+
+        <!-- ! Reservation Conformation -->
+        <section class="booking">
+
+            <div class="cr1">
+                <div class="cr2"><img src="./img/tickmark.svg" alt="Tick mark"></div>
+            </div>
+            <div class="bk1">Thanks for confirming, </div>
+            <div class="bk2">We look forward to seeing you. </div>
+            <div class="bk3">Contact Us </div>
+            <div class="bk4">
+                1234 Main Streett,Anytown, USA <br>
+                Contact: (555) 123-4567<br>
+                Email: info@cevicheanytown.com<br>
+                Website: www.cevicheanytown.com
+            </div>
+            <div class="myButton btn1">Main Menu</div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="homeIcon" data-section=".home">
+                <img src="img/homeIcn.png" alt="Home" />
+                <p>Home</p>
+            </div>
+            <div class="specialsIcon" data-section=".specials">
+                <img src="img/specials_icon.svg" alt="Specials" />
+                <p>Specials</p>
+            </div>
+            <div class="reservationsIcon" data-section=".reservations">
+                <img src="img/bookingIcn.png" alt="Reservations" />
+                <p>Reservations</p>
+            </div>
+        </footer>
+    </main>
+
+
+    <!-- ! ADDED RESTUARANT 2 CONTENT -->
+    <!-- RESTAURANT 2 -->
+    <main id="rest2" class="rest">
+        <!-- header -->
+        <header>
+
+            <img class="hamburger" src="img/close2hamburger.gif" alt="Menu" />
+        </header>
+        <!-- home -->
+        <section class="home">
+            <div class="sectionContainer">
+                <div class="logoCon" id="topCon2"><img class="logo reveal" src="img/5vine_logo1.svg" alt="Fine Wine" />
+                </div>
+
+                <div class="photoAddress reveal">
+                    <img class="homeImg" src="img/rest2.1.jpg" alt="wine" />
+                    <img class="homeImg" src="img/rest2.2.jpg" alt="wine" />
+
+
+                </div>
+                <div class="hours reveal">
+                    <h2>History</h2>
+
+                </div>
+                <div class="reviews reveal">
+
+                    <p>Fine Wine is a restaurant that indulges in the exquisite and refined flavors of global vineyards.
+                        Our menu showcases a variety of dishes influenced by the timeless recipes and ingredients of
+                        renowned wine regions like France, Italy, and Argentina.</p>
+                </div>
+                <div class="hours reveal">
+                    <h3>We are open on:</h3>
+                </div>
+                <div class="days reveal">
+                    <p>Monday - Thuttrsday: 11am - 9pm<br>
+                        Friday - Saturdayt: 11am - 10pm<br>
+                        Sunday: Closed</p>
+                </div>
+                <div class="address reveal">
+                    <p>1234 Main Streett,Anytown, USA <br>
+                        Contact: (555) 123-4567<br>
+                        Email: info@5inewine.com<br>
+                        Website: www.5inewine.com</p>
+                </div>
+        </section>
+        <!-- Specials -->
+        <section class="specials">
+            <img src="./img/f1.jpg" alt="ceviche specials" class="c1 reveal">
+            <div class="sectionBanner reveal">NIGHTLY SPECIALS</div>
+            <div class="sectionContainer">
+                <div class="nightContainer1 reveal">
+                    <img class="homeImg" src="img/f2.jpg" alt="wine" />
+                    <img class="homeImg" src="img/f3.jpg" alt="wine" />
+
+                </div>
+                <div class="nightContainer1 reveal">
+
+                    <div>
+                        <h2>Weekends</h2>
+                        <div class="menuItems revs">
+                            <p class="sub">Cabernet Sauvignon</p>
+                            <p class="price">CA$12.99</p>
+                            <p class="day">Saturday</p>
+                            <img class="menuImg" src="./img/f4.jpg" alt="fine wine items">
+                        </div>
+                        <div class="menuItems revs">
+                            <p class="sub">Pinot Noir</p>
+                            <p class="price">CA$10.99</p>
+                            <p class="day">Sunday</p>
+                            <img class="menuImg" src="./img/f5.jpg" alt="fine wine items">
+                        </div>
+                        <h2>Weekdays</h2>
+                        <div class="menuItems revs">
+                            <p class="sub">Merlot</p>
+                            <p class="price">CA$12.69</p>
+                            <p class="day">Monday</p>
+                            <img class="menuImg" src="./img/f6.webp" alt="fine wine items">
+                        </div>
+                        <div class="menuItems revs">
+                            <p class="sub">Zinfandel</p>
+                            <p class="price">CA$10.99</p>
+                            <p class="day">Tuesday</p>
+                            <img class="menuImg" src="./img/f7.jpg" alt="fine wine items">
+                        </div>
+                        <div class="menuItems revs">
+                            <p class="sub">Sangiovese</p>
+                            <p class="price">CA$12.99</p>
+                            <p class="day">Wednesday</p>
+                            <img class="menuImg" src="./img/f8.jpg" alt="fine wine items">
+                        </div>
+                        <div class="menuItems revs">
+                            <p class="sub">Tempranillo</p>
+                            <p class="price">CA$10.99</p>
+                            <p class="day">Thursday</p>
+                            <img class="menuImg" src="./img/f9.jpg" alt="fine wine items">
+                        </div>
+                        <div class="menuItems revs">
+                            <p class="sub">Grenache</p>
+                            <p class="price">CA$10.99</p>
+                            <p class="day">Friday</p>
+                            <img class="menuImg" src="./img/f10.jpg" alt="fine wine items">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- reservations -->
+        <section class="reservations">
+            <div class="sectionBanner">RESERVATIONS</div>
+            <div class="sectionContainer">
+                <!-- FORM HERE -->
+
+                <form>
+                    <div id="forms">
+
+                        <p class="formContent">
+                        <p class="reveal">
+                            <label class="labelsN" for="name">Name</label> <br>
+                            <input class="inputBox" type="text" id="name" required>
+                        </p>
+                        <p class="reveal">
+                            <label class="labelsN" for="email">Email</label> <br>
+                            <input class="inputBox" type="email" id="email" required>
+                        </p>
+                        <p class="reveal">
+                            <label class="labelsD" for="dob">Date</label> <br>
+                            <input class="inputBox" type="date" id="dob" required min="1920-01-01" max="2022-12-31">
+                        </p>
+
+
+                        <p class="reveal">
+                            <label class="labelSl" for="time">Select Time<span>*</span></label><br>
+                            <select name="time" id="selection" required>
+                                <option value="">Select a time...</option>
+                                <option value="6:00 pm">6:00 pm</option>
+                                <option value="6:30 pm">6:30 pm</option>
+                                <option value="7:00 pm">7:00 pm</option>
+                                <option value="7:30 pm">7:30 pm</option>
+                                <option value="8:00 pm">8:00 pm</option>
+                                <option value="8:30 pm">8:30 pm</option>
+                                <option value="9:00 pm">9:00 pm</option>
+                                <option value="9:30 pm">9:30 pm</option>
+                            </select>
+                        </p>
+
+                        <p class="reveal">
+                            <label class="labelSlp" for="guests">Number of Guests<span>*</span></label><br>
+                            <select name="time" id="time" required>
+                                <option value="">Select the number of guests...</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10+">10+</option>
+                            </select>
+                        </p>
+
+                        <p class="reveal">
+                            <label class="labelSe" for="requests">Special Requests</label><br>
+                            <textarea name="requests" id="req" rows="4"></textarea>
+                        </p>
+
+                        <p class="reveal">
+                            <input type="submit" class="reserve res2" name="Submit" />
+                        </p>
+                    </div>
+            </div>
+            </form>
+
+        </section>
+        <!-- ! Reservation Conformation -->
+        <section class="booking">
+            <div class="cr3">
+                <div class="cr4"><img src="./img/tickmark.svg" alt="Tick mark"></div>
+            </div>
+            <div class="bk1">Thanks for confirming, </div>
+            <div class="bk2">Ceviche looks forward to seeing you. </div>
+            <div class="bk3">Contact Us </div>
+            <div class="bk4">
+                <p>1234 Main Streett,Anytown, USA <br>
+                    Contact: (555) 123-4567<br>
+                    Email: info@5inewine.com<br>
+                    Website: www.5inewine.com</p>
+            </div>
+            <div class="myButton btn2">Main Menu</div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="homeIcon" data-section=".home">
+                <img src="img/homeIcn.png" alt="Home" />
+                <p>Home</p>
+            </div>
+            <div class="specialsIcon" data-section=".specials">
+                <img src="img/specials_icon.svg" alt="Specials" />
+                <p>Specials</p>
+            </div>
+            <div class="reservationsIcon" data-section=".reservations">
+                <img src="img/bookingIcn.png" alt="Reservations" />
+                <p>Reservations</p>
+            </div>
+        </footer>
+    </main>
+
+
+
+    <!-- ! ADDED RESTUARANT 3 CONTENT -->
+    <!-- RESTAURANT 3 -->
+    <main id="rest3" class="rest">
+        <!-- header -->
+        <header>
+
+            <img class="hamburger" src="img/close2hamburger.gif" alt="Menu" />
+        </header>
+        <!-- home -->
+        <section class="home">
+            <div class="sectionContainer">
+                <div class="logoCon"><img class="logo reveal" src="img/crispy_logo1.svg" alt="Crispy" /></div>
+
+                <div class="photoAddress reveal">
+                    <img class="homeImg" src="img/r6.jpg" alt="fastfood" />
+                    <img class="homeImg" src="img/r10.webp" alt="fastfood" />
+
+
+                </div>
+                <div class="hours reveal">
+                    <h2>History</h2>
+
+                </div>
+                <div class="reviews reveal">
+
+                    <p>Crispys is a fast-food restaurant that embraces the irresistible and delectable world of quick
+                        bites. Our menu features a delightful array of dishes inspired by the crave-worthy recipes and
+                        flavors of international street food. </p>
+                </div>
+                <div class="hours reveal">
+                    <h3>We are open on:</h3>
+                </div>
+                <div class="days">
+                    <p>Monday - Thuttrsday: 11am - 9pm<br>
+                        Friday - Saturdayt: 11am - 10pm<br>
+                        Sunday: Closed</p>
+                </div>
+                <div class="address">
+                    <p>1234 Main Streett,Anytown, USA <br>
+                        Contact: (555) 123-4567<br>
+                        Email: info@crispys.com<br>
+                        Website: www.crispys.com</p>
+                </div>
+        </section>
+        <!-- Specials -->
+        <section class="specials">
+            <img src="./img/r5.jpg" alt="ceviche specials" class="c1 reveal">
+            <div class="sectionBanner reveal">NIGHTLY SPECIALS</div>
+            <div class="sectionContainer">
+                <div class="nightContainer1 reveal">
+                    <img class="homeImg" src="img/r2.webp" alt="chicken" />
+                    <img class="homeImg" src="img/r10.webp" alt="chicken" />
+
+                </div>
+                <div class="nightContainer1 reveal">
+
+                    <div>
+                        <h2>Weekends</h2>
+                        <div class="menuItems revs">
+                            <p class="sub">Crispy Fried Roll</p>
+                            <p class="price">CA$12.99</p>
+                            <p class="day">Saturday</p>
+                            <img class="menuImg" src="./img/r1.jpg" alt="crispys items">
+                        </div>
+                        <div class="menuItems revs">
+                            <p class="sub">Beef Wrap</p>
+                            <p class="price">CA$10.99</p>
+                            <p class="day">Sunday</p>
+                            <img class="menuImg" src="./img/r1.jpg" alt="crispys items">
+                        </div>
+                        <h2>Weekdays</h2>
+                        <div class="menuItems revs">
+                            <p class="sub">Chicken Bowl</p>
+                            <p class="price">CA$12.69</p>
+                            <p class="day">Monday</p>
+                            <img class="menuImg" src="./img/r6.jpg" alt="crispys items">
+                        </div>
+                        <div class="menuItems revs">
+                            <p class="sub">Rice and Fish Bowl</p>
+                            <p class="price">CA$10.99</p>
+                            <p class="day">Tuesday</p>
+                            <img class="menuImg" src="./img/r7.webp" alt="crispys items">
+                        </div>
+                        <div class="menuItems revs">
+                            <p class="sub">Meat and Veg Wrap</p>
+                            <p class="price">CA$12.99</p>
+                            <p class="day">Wednesday</p>
+                            <img class="menuImg" src="./img/r8.jpg" alt="crispys items">
+                        </div>
+                        <div class="menuItems revs">
+                            <p class="sub">Roll in the Rocks</p>
+                            <p class="price">CA$10.99</p>
+                            <p class="day">Thursday</p>
+                            <img class="menuImg" src="./img/r9.jpg" alt="crispys items">
+                        </div>
+                        <div class="menuItems revs">
+                            <p class="sub">Chips and Meat</p>
+                            <p class="price">CA$10.99</p>
+                            <p class="day">Friday</p>
+                            <img class="menuImg" src="./img/r10.webp" alt="crispys items">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- reservations -->
+        <section class="reservations">
+            <div class="sectionBanner">RESERVATIONS</div>
+            <div class="sectionContainer">
+                <!-- FORM HERE -->
+
+                <form>
+                    <div id="forms">
+
+                        <p class="formContent">
+                        <p class="reveal">
+                            <label class="labelsN" for="name">Name</label> <br>
+                            <input class="inputBox" type="text" id="name" required>
+                        </p>
+                        <p class="reveal">
+                            <label class="labelsN" for="email">Email</label> <br>
+                            <input class="inputBox" type="email" id="email" required>
+                        </p>
+                        <p class="reveal">
+                            <label class="labelsD" for="dob">Date</label> <br>
+                            <input class="inputBox" type="date" id="dob" required min="1920-01-01" max="2022-12-31">
+                        </p>
+
+
+                        <p class="reveal">
+                            <label class="labelSl" for="time">Select Time<span>*</span></label><br>
+                            <select name="time" id="selection" required>
+                                <option value="">Select a time...</option>
+                                <option value="6:00 pm">6:00 pm</option>
+                                <option value="6:30 pm">6:30 pm</option>
+                                <option value="7:00 pm">7:00 pm</option>
+                                <option value="7:30 pm">7:30 pm</option>
+                                <option value="8:00 pm">8:00 pm</option>
+                                <option value="8:30 pm">8:30 pm</option>
+                                <option value="9:00 pm">9:00 pm</option>
+                                <option value="9:30 pm">9:30 pm</option>
+                            </select>
+                        </p>
+
+                        <p class="reveal">
+                            <label class="labelSlp" for="guests">Number of Guests<span>*</span></label><br>
+                            <select name="time" id="time" required>
+                                <option value="">Select the number of guests...</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10+">10+</option>
+                            </select>
+                        </p>
+
+                        <p class="reveal">
+                            <label class="labelSe" for="requests">Special Requests</label><br>
+                            <textarea name="requests" id="req" rows="4"></textarea>
+                        </p>
+
+                        <p class="reveal">
+                            <input type="submit" class="reserve res3" name="Submit" />
+                        </p>
+                    </div>
+            </div>
+            </form>
+
+        </section>
+
+        <!-- ! Reservation Conformation -->
+        <section class="booking">
+            <div class="cr5">
+                <div class="cr6"><img src="./img/tickmark.svg" alt="Tick mark"></div>
+            </div>
+            <div class="bk1">Thanks for confirming, </div>
+            <div class="bk2">Ceviche looks forward to seeing you. </div>
+            <div class="bk3">Contact Us </div>
+            <div class="bk4">
+                <p>1234 Main Streett,Anytown, USA <br>
+                    Contact: (555) 123-4567<br>
+                    Email: info@crispys.com<br>
+                    Website: www.crispys.com</p>
+            </div>
+            <div class="myButton btn3">Main Menu</div>
+
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="homeIcon" data-section=".home">
+                <img src="img/homeIcn.png" alt="Home" />
+                <p>Home</p>
+            </div>
+            <div class="specialsIcon" data-section=".specials">
+                <img src="img/specials_icon.svg" alt="Specials" />
+                <p>Specials</p>
+            </div>
+            <div class="reservationsIcon" data-section=".reservations">
+                <img src="img/bookingIcn.png" alt="Reservations" />
+                <p>Reservations</p>
+            </div>
+        </footer>
+    </main>
+
+
+
+    <!-- Add js to bottom of page because the document loads from top to bottom -->
+    <script src="js/vendor/jquery-3.5.1.min.js"></script>
+    <script src="js/vendor/jquery.easing.1.3.js"></script>
+    <script src="js/vendor/gsap.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script> -->
+
+    <script>
+        //*** hide all main elements above the selected index in the () */
+        //!!!!!!!!!!! ************* COMMENT OUT WHEN RUNNING ANIMATION SCRIPTS
+        // 0=menu, 1=splash, 2=landing, 3=rest 1, 4=rest 2, 5=rest 3
+        // $("main:gt(3)").hide();
+        //  $("#rest1 section:gt(3)").hide();
+
+        // hide all section elements (in the selected restaurant/main screen)
+        // above the selected index in the ()
+        //!!!!!!!!!!! ************* COMMENT OUT WHEN RUNNING ANIMATION SCRIPTS
+        // 0=home, 1=specials, 2=reservations
+
+        // $("#rest1 section:gt(2)").hide();
+    </script>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
